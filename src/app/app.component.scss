@@ -1,0 +1,16 @@
+.da {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+
+  .test {
+    color: aquamarine;
+    font-size: 21px;
+  }
+
+  &:after {
+    content: "/f001";
+    padding: 10px;
+    background-color: blue;
+  }
+}
